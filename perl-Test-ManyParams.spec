@@ -10,7 +10,8 @@ Summary(pl):	Test::ManyParams - modu³ do testowania wielu parametrów podczas jed
 Name:		perl-Test-ManyParams
 Version:	0.10
 Release:	1
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	ba8534916c50206985beda77720c671b
