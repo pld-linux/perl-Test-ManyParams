@@ -1,13 +1,14 @@
 #
 # Conditional build:
 # _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Test
 %define	pnam	ManyParams
 Summary:	Test::ManyParams - module to test many params as one test
 Summary(pl):	Test::ManyParams - modu³ do testowania wielu parametrów podczas jednego testu
 Name:		perl-Test-ManyParams
-Version:	0.08
+Version:	0.09
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
