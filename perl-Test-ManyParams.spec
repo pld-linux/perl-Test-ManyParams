@@ -7,13 +7,14 @@
 Summary:	Test::ManyParams - module to test many params as one test
 Summary(pl):	Test::ManyParams - modu³ do testowania wielu parametrów podczas jednego testu
 Name:		perl-Test-ManyParams
-Version:	0.07
+Version:	0.08
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
 %if %{?_without_tests:0}%{!?_without_tests:1}
+BuildRequires:	perl-Readonly
 BuildRequires:	perl-Set-CrossProduct
 BuildRequires:	perl-Test-Builder-Tester
 BuildRequires:	perl-Test-Exception
