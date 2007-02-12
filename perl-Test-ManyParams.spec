@@ -6,7 +6,7 @@
 %define		pdir	Test
 %define		pnam	ManyParams
 Summary:	Test::ManyParams - module to test many params as one test
-Summary(pl):	Test::ManyParams - modu³ do testowania wielu parametrów podczas jednego testu
+Summary(pl.UTF-8):   Test::ManyParams - moduÅ‚ do testowania wielu parametrÃ³w podczas jednego testu
 Name:		perl-Test-ManyParams
 Version:	0.10
 Release:	1
@@ -34,11 +34,11 @@ calls the given subroutine with every combination of the given
 parameter values. The combinations are created with building a cross
 product.
 
-%description -l pl
-Ten modu³ jest pomocny przy testowania wielu parametrów naraz.
-Ogólnie, wywo³uje on podan± funkcjê we wszystkich kombinacjach
-podanych warto¶ci parametrów. Kombinacje s± tworzone poprzez iloczyn
-kartezjañski.
+%description -l pl.UTF-8
+Ten moduÅ‚ jest pomocny przy testowania wielu parametrÃ³w naraz.
+OgÃ³lnie, wywoÅ‚uje on podanÄ… funkcjÄ™ we wszystkich kombinacjach
+podanych wartoÅ›ci parametrÃ³w. Kombinacje sÄ… tworzone poprzez iloczyn
+kartezjaÅ„ski.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
