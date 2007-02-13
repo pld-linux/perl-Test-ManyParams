@@ -6,7 +6,7 @@
 %define		pdir	Test
 %define		pnam	ManyParams
 Summary:	Test::ManyParams - module to test many params as one test
-Summary(pl.UTF-8):   Test::ManyParams - moduł do testowania wielu parametrów podczas jednego testu
+Summary(pl.UTF-8):	Test::ManyParams - moduł do testowania wielu parametrów podczas jednego testu
 Name:		perl-Test-ManyParams
 Version:	0.10
 Release:	1
