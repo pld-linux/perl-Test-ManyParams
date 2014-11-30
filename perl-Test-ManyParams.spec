@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Test
 %define		pnam	ManyParams
+%include	/usr/lib/rpm/macros.perl
 Summary:	Test::ManyParams - module to test many params as one test
 Summary(pl.UTF-8):	Test::ManyParams - moduł do testowania wielu parametrów podczas jednego testu
 Name:		perl-Test-ManyParams
@@ -15,7 +15,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	ba8534916c50206985beda77720c671b
+URL:		http://search.cpan.org/dist/Test-ManyParams/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Readonly
 BuildRequires:	perl-Set-CrossProduct
@@ -24,7 +26,6 @@ BuildRequires:	perl-Test-Differences
 BuildRequires:	perl-Test-Exception
 BuildRequires:	perl-Test-Simple
 %endif
-BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
