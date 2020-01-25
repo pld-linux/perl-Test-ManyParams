@@ -4,7 +4,6 @@
 
 %define		pdir	Test
 %define		pnam	ManyParams
-%include	/usr/lib/rpm/macros.perl
 Summary:	Test::ManyParams - module to test many params as one test
 Summary(pl.UTF-8):	Test::ManyParams - moduł do testowania wielu parametrów podczas jednego testu
 Name:		perl-Test-ManyParams
