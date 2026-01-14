@@ -8,7 +8,7 @@ Summary:	Test::ManyParams - module to test many params as one test
 Summary(pl.UTF-8):	Test::ManyParams - moduł do testowania wielu parametrów podczas jednego testu
 Name:		perl-Test-ManyParams
 Version:	0.10
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
